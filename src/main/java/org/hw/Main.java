@@ -11,5 +11,11 @@ public class Main {
         // 1.3 Сделать запрос select from book where author = 'какое-то имя'
         // и прочитать его с помощью ResultSet.
         JDBC.readData();
+
+        // 2.2 Создать Session и сохранить в таблицу 10 книг
+        JPA.insertData();
+
+        // 2.3 Выгрузить список книг какого-то автора
+        JPA.readData();
     }
 }
